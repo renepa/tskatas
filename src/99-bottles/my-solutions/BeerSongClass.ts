@@ -6,7 +6,9 @@ export class BeerSong {
       } bottles of beer on the wall.`
     } else if (verseNumber === 1) {
       return `1 bottle of beer on the wall, 1 bottle of beer. \\n Take it down and pass it around, no more bottles of beer on the wall.`
+    } else if (verseNumber === 0) {
+      return 'No more bottles of beer on the wall, no more bottles of beer. \\n Go to the store and buy some more, 99 bottles of beer on the wall.'
     }
-    return 'No more bottles of beer on the wall, no more bottles of beer. \\n Go to the store and buy some more, 99 bottles of beer on the wall.'
+    throw Error('There is no verse < 0')
   }
 }
