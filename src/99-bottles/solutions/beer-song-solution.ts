@@ -24,10 +24,7 @@ Take one down and pass it around, ${number - 1} bottles of beer on the wall.
     }
   }
 
-  private range(start: number, end: number) {
-    const offset = end === 0 ? 0 : start - 2
-    return Array.from({ length: start - end + 1 }, (_, k) => k + offset)
-      .slice()
-      .reverse()
+  range(from: number, to: number): Array<number> {
+    Array.of({})
   }
 }
