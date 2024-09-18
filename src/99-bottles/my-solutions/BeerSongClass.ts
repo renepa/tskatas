@@ -13,7 +13,7 @@ export class BeerSong {
     }
     throw Error('There is no verse < 0')
   }
-  // Test
+
   singFromTo(startVerseNumber: number, endVerseNumber: number): string {
     let song = ''
     for (let i = startVerseNumber; i >= endVerseNumber; i--) {
