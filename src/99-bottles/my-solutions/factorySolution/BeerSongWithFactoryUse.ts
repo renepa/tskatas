@@ -1,4 +1,4 @@
-import { BottleVerseFactory } from './BottleVerseFactory'
+import { BottleVerseFactory } from './BottleSongFactory/BottleVerseFactory'
 
 export class BeerSongWithFactoryUse {
   sing(verseNumber: number): string {

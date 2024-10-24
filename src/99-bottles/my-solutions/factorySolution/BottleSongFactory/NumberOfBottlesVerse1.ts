@@ -1,17 +1,12 @@
-import { BottleVerse } from './BottleVerse'
 import { NumberOfBottlesVerse } from './NumberOfBottlesVerse'
 
-export class NumberOfBottlesVerse0 extends NumberOfBottlesVerse {
+export class NumberOfBottlesVerse1 extends NumberOfBottlesVerse {
   newBottleSentence(): string {
-    return `99 bottles of beer on the wall.`
-  }
-
-  currentBottlesSentence(): string {
-    return `No more bottles of beer on the wall, no more bottles of beer.`
+    return `no more bottles of beer on the wall.`
   }
 
   actionSentence(): string {
-    return 'Go to the store and buy some more'
+    return 'Take it down and pass it around'
   }
 
   protected getBottleContainer(numberOfBottles: number): string {
