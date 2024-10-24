@@ -22,3 +22,27 @@ export class BeerSong {
     return song
   }
 }
+
+/* Concept
+Generell : 
+1. Bottle - # < 2
+2. Bottles - # > 2
+
+Erster Satz:
+1. x Bottle(s) of Beer on the wall, x bottle of beer - # >= 1
+2. No more bottles of beer on the wall, no more bottles of beer # = 0
+
+Zweiter Satz: Action
+1. Take one down and pass it around - # > 1
+2. Take it down and pass it around - # = 1
+2 Go to the store and buy some more # = 0
+
+Zweiter Satz: Anzahl
+1. Bottle(s) of beer on the wall - # > 1
+2. No more bottles of beer on the wall - # = 1
+3. 99 bootles of beer on the wall # = 0
+
+Implementierungen
+1. Standard : alles größer 1
+
+*/
