@@ -3,7 +3,7 @@ import { BottleVerse } from './BottleVerse'
  * Implementation for all cases from 99 - 1
  */
 export class NumberOfBottlesVerse implements BottleVerse {
-  constructor(private verseNumber: number) {}
+  constructor(protected verseNumber: number) {}
 
   newBottleSentence(): string {
     const bottleString = this.getBottleContainer(--this.verseNumber)
